@@ -105,8 +105,6 @@ In order to merge an upstream branch with fork branch:
 git checkout dev  # fork branch 
 git merge master  # will merge master in dev 
 </code></pre>
-<pre><code> </code></pre>
-<pre><code> </code></pre>
 
 #### Contirbution
 PRs are welcome from the community
