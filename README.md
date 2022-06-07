@@ -46,6 +46,7 @@ git submodule update --init  # initialize and update submdoules
 git submodule update --init --recursive  # to intialize, fetch and checkout nested submodules
 git submodule update --remote --merge  # merge remote changes locally
 git submodule update --remote --rebase  # reabase local with remote changes
+git submodule foreach git pull origin &lt;branch>  # pull updates from all submodules
 </code></pre>
 
 
