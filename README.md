@@ -1,10 +1,10 @@
 ## Git Cheat Sheet
-Various git commands at one place that we use regularly in our daily working life.
-
-[Basic Git Commands](#Basic Git commands) <br />
-[Working with Submodules](#Working with Submodules) <br />
-[Working with Forks](#Working with Forks)
-#### Basic Git commands:
+Various git commands at one place that we use regularly in our working life.
+## Table of Contents
+1. [Basic Git Commands](#basic-git-commands) <br />
+2. [Working with Submodules](#working-with-submodules) <br />
+3. [Working with Forks](#working-with-forks) <br />
+#### Basic Git Commands:
 <pre><code>git status  # new updates in repo
 git add &lt;file-name> # add new files to commit
 git commit -m 'your-message' 
