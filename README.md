@@ -41,6 +41,9 @@ Update repo's remote url. In case your repo is moved
 to some other url:
 <pre><code>git remote set-url origin &lt;remote-repo-url-here> </code></pre>
 
+Cache git credentials:
+<pre><code>git config --global credential.helper "cache --timeout=&lt;time in seconds>" </code></pre>
+
 #### Working with Submodules
 Basic submodule commands
 <pre><code>git submodule add &lt;url>  # add a submodule in repo
